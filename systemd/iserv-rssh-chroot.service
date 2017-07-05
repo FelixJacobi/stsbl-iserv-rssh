@@ -6,7 +6,7 @@ After=iserv-chksftpchroot.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-SyslogIdentifier=iserv-rssh-chroot.service.service
+SyslogIdentifier=iserv-rssh-chroot.service
 ExecStart=/usr/lib/iserv/rssh_setup_chroot
 
 [Install]
