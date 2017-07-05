@@ -1,0 +1,15 @@
+/lib32
+/lib64
+/lib
+/sbin
+/bin
+/usr/lib
+/usr/lib32
+/usr/bin
+/usr/sbin
+/run
+/var/run
+/dev
+/sys
+/proc
+/dev/pts

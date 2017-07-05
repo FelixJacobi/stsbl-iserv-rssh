@@ -1,0 +1,13 @@
+# rssh-chroot
+[Unit]
+Description=Setup chroot settings for rssh
+After=iserv-chksftpchroot.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+SyslogIdentifier=iserv-rssh-chroot.service.service
+ExecStart=/usr/lib/iserv/rssh_setup_chroot
+
+[Install]
+WantedBy=multi-user.target

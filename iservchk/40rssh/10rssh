@@ -1,0 +1,6 @@
+Start iserv-rssh-chroot
+
+Check /etc/rssh.conf
+MkDir 0755 root:root /sftp-chroot/etc
+Check /sftp-chroot/etc/rssh.conf
+

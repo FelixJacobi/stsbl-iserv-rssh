@@ -1,0 +1,1 @@
+/etc/passwd IN_CLOSE_WRITE /usr/lib/iserv/sleep_exec_once 10 /usr/lib/iserv/sftp_chroot_copy_passwd

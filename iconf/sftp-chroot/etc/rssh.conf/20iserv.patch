@@ -1,0 +1,21 @@
+--- /etc/rssh.conf.orig	2014-11-08 19:23:01.000000000 +0100
++++ rssh.conf.chroot	2017-07-05 04:58:16.201021403 +0200
+@@ -6,15 +6,15 @@
+ # Leave these all commented out to make the default action for rssh to lock
+ # users out completely...
+ 
+-#allowscp
++allowscp
+ #allowsftp
+ #allowcvs
+ #allowrdist
+-#allowrsync
++allowrsync
+ #allowsvnserve
+ 
+ # set the default umask
+-umask = 022
++umask = 002
+ 
+ # If you want to chroot users, use this to set the directory where the root of
+ # the chroot jail will be located.
