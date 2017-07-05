@@ -1,3 +1,10 @@
+stsbl-iserv-rssh (17.07.05-2) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Added package tags.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 05 Jul 2017 08:27:28 +0200
+
 stsbl-iserv-rssh (17.07.05-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
