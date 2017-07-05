@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 
 Package: stsbl-iserv-rssh
 Architecture: all
-Depends: stsbl-iserv-sftp (>> 17.07.05), iserv-server-incron, rssh
+Depends: stsbl-iserv-sftp (>= 17.07.05), iserv-server-incron, rssh
 Description: rssh-Unterstützung für IServ (EXPERIMENTELL)
  Dieses Paket bietet Unterstützung für die Login-Shell rssh (http://www.pizzashack.org/rssh/),
  die einen Zugriff mittels SSH über das Synchronisationsprotokoll rsync und das Dateiübertragungsprotokoll
@@ -17,6 +17,4 @@ Description: rssh-Unterstützung für IServ (EXPERIMENTELL)
  .
  Dises Modul ist als sehr frühe Beta anzusehen, momentan muss bei Benutzern, die mittels rssh auf den
  Server zugreifen können sollen, die Login-Shell noch manuell von /usr/sbin/nologin auf /usr/bin/rssh
- geändert werden. Benutzer, die eine vollwertige Shell wie die bash oder zsh eingerichtet haben, können
- die entsprechenden Funktionen sofort nutzen und benötigen nicht die Einrichtung der rssh als Shell.
-Tag: suite::iserv:portal, role::plugin, implemented-in::shell
+ geändert werden.
