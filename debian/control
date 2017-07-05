@@ -18,3 +18,4 @@ Description: rssh-Unterstützung für IServ (EXPERIMENTELL)
  Dises Modul ist als sehr frühe Beta anzusehen, momentan muss bei Benutzern, die mittels rssh auf den
  Server zugreifen können sollen, die Login-Shell noch manuell von /usr/sbin/nologin auf /usr/bin/rssh
  geändert werden.
+Tag: suite::iserv:portal, role::plugin, implemented-in::shell
