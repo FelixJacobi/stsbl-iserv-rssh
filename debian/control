@@ -15,7 +15,7 @@ Description: rssh-Unterstützung für IServ (EXPERIMENTELL)
  SCP sicher ermöglicht, ohne dass der Benutzer eine Login-Shell öffnen kann. Dieses Modul setzt den
  SFTP-Server voraus, der gegegebenfalls automatisch mitinstalliert wird.
  .
- Dises Modul ist als sehr frühe Beta anzusehen, momentan muss bei Benutzern, die mittels rssh auf den
+ Dieses Modul ist als sehr frühe Beta anzusehen, momentan muss bei Benutzern, die mittels rssh auf den
  Server zugreifen können sollen, die Login-Shell noch manuell von /usr/sbin/nologin auf /usr/bin/rssh
  geändert werden.
-Tag: suite::iserv:portal, role::plugin, implemented-in::shell
+Tag: suite::iserv:portal, role::plugin, implemented-in::shell, status::experimental, status::highlighted
