@@ -3,3 +3,4 @@ debian/stsbl-iserv-rssh.substvars
 debian/stsbl-iserv-rssh.debhelper.log
 debian/files
 debian/debhelper-build-stamp
+debian/*.debhelper
