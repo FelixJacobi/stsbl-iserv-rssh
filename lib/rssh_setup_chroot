@@ -1,5 +1,6 @@
 #!/bin/sh -e
 
 mkdir -p -m 0755 /sftp-chroot/etc
-/usr/lib/iserv/sftp_chroot_copy_passwd
+/usr/lib/iserv/sftp_chroot_copy /etc/passwd
+/usr/lib/iserv/sftp_chroot_copy /etc/group
 iconf repair /sftp-chroot/etc/rssh.conf
