@@ -1,5 +1,5 @@
 --- /etc/rssh.conf.orig	2014-11-08 19:23:01.000000000 +0100
-+++ rssh.conf	2017-07-05 04:55:57.313299796 +0200
++++ rssh.conf	2018-07-05 04:55:57.313299796 +0200
 @@ -6,21 +6,21 @@
  # Leave these all commented out to make the default action for rssh to lock
  # users out completely...
