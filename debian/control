@@ -3,12 +3,17 @@ Section: misc
 Priority: extra
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
 Build-Depends: debhelper (>= 10)
-Build-Depends-Indep: iserv3-dev, dh-systemd
-Standards-Version: 3.9.5
+Build-Depends-Indep: iserv3-dev
+Standards-Version: 4.1.3.0
 
 Package: stsbl-iserv-rssh
 Architecture: all
-Depends: stsbl-iserv-sftp (>= 17.07.05), iserv-server-incron, rssh
+Depends: ${misc:Depends},
+  ${perl:Depends},
+  iserv-server-incron,
+  rssh,
+  stsbl-iserv-sftp (>= 17.07.05),
+Xb-Private-IServ-Revision: ${iserv:Revision}
 Description: rssh-Unterstützung für IServ (EXPERIMENTELL)
  Dieses Paket bietet Unterstützung für die Login-Shell rssh (http://www.pizzashack.org/rssh/),
  die einen Zugriff mittels SSH über das Synchronisationsprotokoll rsync und das Dateiübertragungsprotokoll
