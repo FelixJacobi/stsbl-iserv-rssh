@@ -1,3 +1,11 @@
+stsbl-iserv-rssh (20.08.02-1) testing; urgency=medium
+
+  * Updated packaging
+  * Updated build rules for webpack support
+  * Bumped copyright
+
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Sun, 02 Aug 2020 06:46:26 +0200
+
 stsbl-iserv-rssh (17.07.18-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
